@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "pizzamod",
+  "version": "${version}",
+
+  "name": "Pizza mod",
+  "description": "This mod adds the pizza and it's ingredients!",
+  "authors": [
+    "GamerPowered97"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gamerpowered97.pizzamod.PizzaMod"
+    ]
+  },
+  "mixins": [
+    "pizzamod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "~1.18.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
