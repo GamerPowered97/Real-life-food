@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "pizzamod:item/pizza_slice"
+    "layer0": "foodmod:item/pizza_slice"
   }
 }

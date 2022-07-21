@@ -1,4 +1,4 @@
-package net.gamerpowered97.pizzamod.mixin;
+package net.gamerpowered97.foodmod.mixin;
 
 import net.fabricmc.example.ExampleMod;
 import net.minecraft.client.gui.screen.TitleScreen;

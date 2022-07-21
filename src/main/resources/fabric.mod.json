@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "pizzamod",
+  "id": "foodmod",
   "version": "${version}",
 
-  "name": "Pizza mod",
-  "description": "This mod adds the pizza and it's ingredients!",
+  "name": "Food Mod",
+  "description": "This mod adds the pizza, the donut and it's ingredients! More food is coming soon",
   "authors": [
     "GamerPowered97",
     "Your Local Gamer"
@@ -15,16 +15,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/foodmod/pizza_slice.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.gamerpowered97.pizzamod.PizzaMod"
+      "net.gamerpowered97.foodmod.FoodMod"
     ]
   },
   "mixins": [
-    "pizzamod.mixins.json"
+    "foodmod.mixins.json"
   ],
 
   "depends": {

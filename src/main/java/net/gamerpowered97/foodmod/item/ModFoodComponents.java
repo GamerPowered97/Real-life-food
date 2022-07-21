@@ -1,4 +1,4 @@
-package net.gamerpowered97.pizzamod.item;
+package net.gamerpowered97.foodmod.item;
 
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;

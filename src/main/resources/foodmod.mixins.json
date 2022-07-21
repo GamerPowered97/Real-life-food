@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.gamerpowered97.pizzamod.mixin",
+  "package": "net.gamerpowered97.foodmod.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
