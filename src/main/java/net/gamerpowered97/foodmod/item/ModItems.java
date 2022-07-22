@@ -11,6 +11,11 @@ public class ModItems {
     public static final Item PIZZA_SLICE = registerItem("pizza_slice",
             new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD)));
 
+    public static final Item DONUT = registerItem("donut",
+            new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD)));
+
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(FoodMod.MOD_ID, name), item);
     }
