@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item PIZZA_SLICE = registerItem("pizza_slice",
-            new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD)));
+            new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.PIZZA_SLICE)));
 
     public static final Item DONUT = registerItem("donut",
             new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD)));
