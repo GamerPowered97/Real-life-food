@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "foodmod:block/tomato_vine7"
+  }
+}

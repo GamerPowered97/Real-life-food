@@ -6,6 +6,9 @@
   "item.foodmod.frosting": "Frosting",
   "item.foodmod.tomato": "Tomato",
   "item.foodmod.cheese": "Cheese",
+  "item.foodmod.tomato_seeds": "Tomato Seeds",
+
+  "block.foodmod.tomato_vine": "Tomato Vine",
 
   "itemGroup.foodmod.food_mod": "Food Mod"
 

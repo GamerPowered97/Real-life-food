@@ -2,6 +2,8 @@ package net.gamerpowered97.foodmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.gamerpowered97.foodmod.FoodMod;
+import net.gamerpowered97.foodmod.block.ModBlocks;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -27,6 +29,10 @@ public class ModItems {
 
     public static final Item CHEESE = registerItem("cheese",
             new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.CHEESE)));
+
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_VINE,
+                    new FabricItemSettings().group(ModItemGroup.FOOD_MOD)));
 
 
 
