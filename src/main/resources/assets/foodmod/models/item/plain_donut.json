@@ -1,6 +1,6 @@
 {
-  "parent": "generate/item",
-  "texture": {
+  "parent": "item/generated",
+  "textures": {
     "layer0": "foodmod:item/plain_donut"
   }
 }
