@@ -1,9 +1,6 @@
-# Fabric Example Mod
+# Food Mod
 
-## Setup
+### Minecraft mod that adds many types of food, it has the pizza, the donut and many more.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This is a GitHub repository for the Food Mod that has been made for Fabric.  
+If you have any suggestions or issues/errors feel free to report it [here](https://github.com/GamerPowered97/Food-mod-1.18.1/issues).

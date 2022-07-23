@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 140,
+  "experience": 0,
+  "group": "plain_donut",
+  "ingredient": {
+    "item": "foodmod:dough"
+  },
+  "result": "foodmod:plain_donut"
+}

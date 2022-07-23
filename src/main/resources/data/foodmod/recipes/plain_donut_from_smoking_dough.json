@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0,
+  "group": "plain_donut",
+  "ingredient": {
+    "item": "foodmod:dough"
+  },
+  "result": {
+    "item": "foodmod:plain_donut"
+  }
+}
