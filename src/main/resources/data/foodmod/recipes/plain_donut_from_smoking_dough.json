@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "foodmod:dough"
   },
-  "result": {
-    "item": "foodmod:plain_donut"
-  }
+  "result": "foodmod:plain_donut"
 }
