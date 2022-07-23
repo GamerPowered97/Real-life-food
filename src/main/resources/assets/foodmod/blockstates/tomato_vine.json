@@ -1,12 +1,12 @@
 {
   "variants": {
-    "age=0": { "model": "foodmod:block/grapevine0" },
-    "age=1": { "model": "foodmod:block/grapevine1" },
-    "age=2": { "model": "foodmod:block/grapevine2" },
-    "age=3": { "model": "foodmod:block/grapevine3" },
-    "age=4": { "model": "foodmod:block/grapevine4" },
-    "age=5": { "model": "foodmod:block/grapevine5" },
-    "age=6": { "model": "foodmod:block/grapevine6" },
-    "age=7": { "model": "foodmod:block/grapevine7" }
+    "age=0": { "model": "foodmod:block/tomatovine0" },
+    "age=1": { "model": "foodmod:block/tomatovine1" },
+    "age=2": { "model": "foodmod:block/tomatovine2" },
+    "age=3": { "model": "foodmod:block/tomatovine3" },
+    "age=4": { "model": "foodmod:block/tomatovine4" },
+    "age=5": { "model": "foodmod:block/tomatovine5" },
+    "age=6": { "model": "foodmod:block/tomatovine6" },
+    "age=7": { "model": "foodmod:block/tomatovine7" }
   }
 }
