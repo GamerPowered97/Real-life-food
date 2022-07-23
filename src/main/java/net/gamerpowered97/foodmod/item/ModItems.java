@@ -22,6 +22,12 @@ public class ModItems {
     public static final Item FROSTING = registerItem("frosting",
             new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.FROSTING)));
 
+    public static final Item TOMATO = registerItem("tomato",
+            new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.TOMATO)));
+
+    public static final Item CHEESE = registerItem("cheese",
+            new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.CHEESE)));
+
 
 
 

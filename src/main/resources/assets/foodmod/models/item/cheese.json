@@ -1,0 +1,6 @@
+{
+  "type": "item/generated",
+  "textures": {
+    "layer0": "foodmod:item/cheese"
+  }
+}
