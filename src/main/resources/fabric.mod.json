@@ -21,6 +21,9 @@
   "entrypoints": {
     "main": [
       "net.gamerpowered97.foodmod.FoodMod"
+    ],
+    "client": [
+      "net.gamerpowered97.foodmod.FoodModClient"
     ]
   },
   "mixins": [
