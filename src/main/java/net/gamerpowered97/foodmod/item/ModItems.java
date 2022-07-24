@@ -30,6 +30,9 @@ public class ModItems {
     public static final Item CHEESE = registerItem("cheese",
             new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.CHEESE)));
 
+    public static final Item WHEAT_DOUGH = registerItem("wheat_dough",
+            new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.WHEAT_DOUGH)));
+
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
             new AliasedBlockItem(ModBlocks.TOMATO_VINE,
                     new FabricItemSettings().group(ModItemGroup.FOOD_MOD)));

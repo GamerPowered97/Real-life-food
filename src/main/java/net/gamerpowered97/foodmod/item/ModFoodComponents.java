@@ -12,4 +12,5 @@ public class ModFoodComponents {
     public static final FoodComponent DOUGH = new FoodComponent.Builder().hunger(2).saturationModifier(0f).statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 200, 1), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 1), 1.0f).build();
     public static final FoodComponent TOMATO = new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).build();
     public static final FoodComponent CHEESE = new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).build();
+    public static final FoodComponent WHEAT_DOUGH = new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 200, 1), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 1), 1.0f).build();
 }
