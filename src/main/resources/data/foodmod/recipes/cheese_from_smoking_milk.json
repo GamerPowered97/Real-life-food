@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 95,
+  "experience": 0,
+  "group": "cheese",
+  "ingredient": {
+    "item": "minecraft:milk_bucket"
+  },
+  "result": "foodmod:cheese"
+}
