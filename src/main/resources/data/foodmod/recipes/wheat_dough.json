@@ -8,6 +8,11 @@
       "item": "minecraft:water_bucket"
     }
   },
+  "pattern": [
+    "II",
+    "II",
+    "i"
+  ],
   "result": {
     "item": "foodmod:wheat_dough",
     "count": 3
