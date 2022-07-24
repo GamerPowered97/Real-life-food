@@ -6,11 +6,11 @@
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "##",
+    "##"
   ],
   "result": {
-    "item": "foodmod:dough"
+    "item": "foodmod:dough",
+    "count": 3
   }
 }
