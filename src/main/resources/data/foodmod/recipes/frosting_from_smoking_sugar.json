@@ -6,5 +6,6 @@
   "ingredient": {
     "item": "minecraft:sugar"
   },
-  "result": "foodmod:frosting"
+  "result": "foodmod:frosting",
+  "count": 4
 }

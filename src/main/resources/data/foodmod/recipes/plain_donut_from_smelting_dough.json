@@ -6,5 +6,6 @@
   "ingredient": {
     "item": "foodmod:dough"
   },
-  "result": "foodmod:plain_donut"
+  "result": "foodmod:plain_donut",
+  "count": 3
 }

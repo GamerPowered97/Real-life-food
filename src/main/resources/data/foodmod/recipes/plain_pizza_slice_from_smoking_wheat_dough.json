@@ -6,5 +6,6 @@
   "ingredient": {
     "item": "foodmod:wheat_dough"
   },
-  "result": "foodmod:plain_pizza_slice"
+  "result": "foodmod:plain_pizza_slice",
+  "count": 3
 }
