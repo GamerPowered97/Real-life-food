@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 140,
+  "experience": 0,
+  "group": "plain_pizza_slice",
+  "ingredient": {
+    "item": "foodmod:wheat_dough"
+  },
+  "result": "foodmod:plain_pizza_slice"
+}
