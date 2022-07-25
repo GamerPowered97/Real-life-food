@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:plain_pizza_slice"
+    },
+    {
+      "item": "foodmod:tomato"
+    },
+    {
+      "item": "foodmod:cheese"
+    }
+  ],
+  "result": {
+    "item": "foodmod:pizza_slice",
+    "count": 3
+  }
+}
