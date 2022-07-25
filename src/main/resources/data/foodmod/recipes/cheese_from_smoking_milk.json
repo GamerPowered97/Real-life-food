@@ -6,5 +6,6 @@
   "ingredient": {
     "item": "minecraft:milk_bucket"
   },
-  "result": "foodmod:cheese"
+  "result": "foodmod:cheese",
+  "count": 3
 }
