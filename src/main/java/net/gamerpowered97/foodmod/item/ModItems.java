@@ -40,6 +40,12 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.TOMATO_VINE,
                     new FabricItemSettings().group(ModItemGroup.FOOD_MOD)));
 
+    public static final Item LETTUCE = registerItem("lettuce",
+            new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.LETTUCE)));
+
+    public static final Item BURGER = registerItem("burger",
+            new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.BURGER)));
+
 
 
 

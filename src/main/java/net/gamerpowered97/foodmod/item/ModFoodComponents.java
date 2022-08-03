@@ -10,8 +10,10 @@ public class ModFoodComponents {
     public static final FoodComponent PLAIN_DONUT = new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).build();
     public static final FoodComponent FROSTING = new FoodComponent.Builder().hunger(1).saturationModifier(0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 100, 1), 1.0f).alwaysEdible().build();
     public static final FoodComponent DOUGH = new FoodComponent.Builder().hunger(2).saturationModifier(0f).statusEffect(new StatusEffectInstance(StatusEffects.POISON, 200, 0), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 200, 1), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 1), 1.0f).build();
-    public static final FoodComponent TOMATO = new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).build();
+    public static final FoodComponent TOMATO = new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).alwaysEdible().build();
     public static final FoodComponent CHEESE = new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).build();
     public static final FoodComponent WHEAT_DOUGH = new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).statusEffect(new StatusEffectInstance(StatusEffects.POISON, 200, 0), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 200, 1), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 1), 1.0f).build();
     public static final FoodComponent PLAIN_PIZZA_SLICE = new FoodComponent.Builder().hunger(3).saturationModifier(0.3f).build();
+    public static final FoodComponent LETTUCE = new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).alwaysEdible().build();
+    public static final FoodComponent BURGER = new FoodComponent.Builder().hunger(7).saturationModifier(0.5f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 1700, 0), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 700, 0), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 1700, 0), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 900, 1), 0.2f).build();
 }
