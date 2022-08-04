@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IIC ",
+    "LBT ",
+    "II  "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:bread"
+    },
+    "L": {
+      "item": "foodmod:lettuce"
+    },
+    "C": {
+      "item": "foodmod:cheese"
+    },
+    "B": {
+      "item": "minecraft:cooked_beef"
+    },
+    "T": {
+      "item": "foodmod:tomato"
+    }
+  },
+  "result": {
+    "item": "foodmod:burger",
+    "count": 2
+  }
+}
