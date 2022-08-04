@@ -10,9 +10,11 @@
   "item.foodmod.wheat_dough": "Wheat Dough",
   "item.foodmod.plain_pizza_slice": "Plain Pizza Slice",
   "item.foodmod.lettuce": "Lettuce",
+  "item.foodmod.lettuce_seeds": "Lettuce Seeds",
   "item.foodmod.burger": "Burger",
 
   "block.foodmod.tomato_vine": "Tomato Vine",
+  "block.foodmod.lettuce_vine": "Lettuce Vine",
 
   "itemGroup.foodmod.food_mod": "Food Mod"
 

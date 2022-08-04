@@ -3,6 +3,7 @@ package net.gamerpowered97.foodmod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.gamerpowered97.foodmod.FoodMod;
+import net.gamerpowered97.foodmod.block.custom.LettuceVineBlock;
 import net.gamerpowered97.foodmod.item.ModItemGroup;
 import net.gamerpowered97.foodmod.block.custom.TomatoVineBlock;
 import net.minecraft.block.Block;
@@ -17,6 +18,9 @@ public class ModBlocks {
 
     public static final Block TOMATO_VINE = registerBlockWithoutBlockItem("tomato_vine",
             new TomatoVineBlock(FabricBlockSettings.copy(Blocks.POTATOES).nonOpaque()), ModItemGroup.FOOD_MOD);
+
+    public static final Block LETTUCE_VINE = registerBlockWithoutBlockItem("lettuce_vine",
+            new LettuceVineBlock(FabricBlockSettings.copy(Blocks.BEETROOTS).nonOpaque()), ModItemGroup.FOOD_MOD);
 
 
 
