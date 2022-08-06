@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -52,7 +52,7 @@
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
-          "block": "foodmod:lettuce_vine",
+          "block": "foodmod_lettuce_vine",
           "properties": {
             "age": "3"
           }
