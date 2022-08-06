@@ -23,7 +23,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:foodmod_seeds"
+              "name": "foodmod:lettuce_seeds"
             }
           ]
         }
