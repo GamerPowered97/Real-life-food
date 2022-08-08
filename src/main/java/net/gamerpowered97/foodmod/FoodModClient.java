@@ -9,5 +9,6 @@ public class FoodModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TOMATO_VINE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LETTUCE_VINE, RenderLayer.getCutout());
     }
 }
