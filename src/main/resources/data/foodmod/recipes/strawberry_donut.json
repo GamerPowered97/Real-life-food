@@ -1,15 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "foodmod:plain_donut"
-    },
-    {
-      "item": "foodmod:frosting"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F",
+    "D"
   ],
+  "key": {
+    "F": {
+      "item": "foodmod:frosting"
+    },
+    "D": {
+      "item": "foodmod:plain_donut"
+    }
+  },
   "result": {
     "item": "foodmod:strawberry_donut",
-    "count": 4
+    "count": 2
   }
 }
