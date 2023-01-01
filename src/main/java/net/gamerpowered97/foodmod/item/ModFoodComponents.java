@@ -16,4 +16,5 @@ public class ModFoodComponents {
     public static final FoodComponent PLAIN_PIZZA_SLICE = new FoodComponent.Builder().hunger(3).saturationModifier(0.3f).build();
     public static final FoodComponent LETTUCE = new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).alwaysEdible().build();
     public static final FoodComponent BURGER = new FoodComponent.Builder().hunger(7).saturationModifier(0.5f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 1700, 0), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 700, 0), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 1700, 0), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 900, 1), 0.2f).build();
+    public static final FoodComponent CHICKEN_NUGGET = new FoodComponent.Builder().hunger(5).saturationModifier(0.5f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 400, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 1200, 0), 1.0f).build();
 }
