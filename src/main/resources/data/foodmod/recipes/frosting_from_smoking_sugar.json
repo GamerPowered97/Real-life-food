@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "cookingtime": 20,
-  "experience": 0,
+  "experience": 0.10,
   "group": "frosting",
   "ingredient": {
     "item": "minecraft:sugar"

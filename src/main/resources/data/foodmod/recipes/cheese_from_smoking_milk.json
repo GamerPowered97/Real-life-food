@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "cookingtime": 95,
-  "experience": 0,
+  "experience": 0.20,
   "group": "cheese",
   "ingredient": {
     "item": "minecraft:milk_bucket"

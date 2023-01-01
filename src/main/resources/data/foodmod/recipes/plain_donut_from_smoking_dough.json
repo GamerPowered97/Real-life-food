@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "cookingtime": 100,
-  "experience": 0,
+  "experience": 0.28,
   "group": "plain_donut",
   "ingredient": {
     "item": "foodmod:dough"

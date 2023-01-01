@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "cookingtime": 80,
-  "experience": 0,
+  "experience": 0.25,
   "group": "frosting",
   "ingredient": {
     "item": "minecraft:sugar"
