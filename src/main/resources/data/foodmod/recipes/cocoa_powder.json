@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:chocolate_bar"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cocoa_powder",
+    "count": 6
+  }
+}
