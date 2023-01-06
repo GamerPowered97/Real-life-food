@@ -42,6 +42,8 @@ public class ModItems {
 
     public static final Item CHICKEN_NUGGET = registerItem("chicken_nugget",
             new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.CHICKEN_NUGGET)));
+    public static final Item CHOCOLATE_BAR = registerItem("chocolate_bar",
+            new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.CHOCOLATE_BAR)));
 
     public static final Item LETTUCE = registerItem("lettuce",
             new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.LETTUCE)));
