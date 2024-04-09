@@ -48,13 +48,15 @@ public class ModItems {
     public static final Item LETTUCE = registerItem("lettuce",
             new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.LETTUCE)));
 
-   public static final Item LETTUCE_SEEDS = registerItem("lettuce_seeds",
+    public static final Item LETTUCE_SEEDS = registerItem("lettuce_seeds",
            new AliasedBlockItem(ModBlocks.LETTUCE_VINE,
                    new FabricItemSettings().group(ModItemGroup.FOOD_MOD)));
 
     public static final Item BURGER = registerItem("burger",
             new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.BURGER)));
-
+        
+    public static final Item BANANA = registerItem("banana", 
+            new Item(new FabricItemSettings().group(ModItemGroup.FOOD_MOD).food(ModFoodComponents.BANANA)));
 
 
 
